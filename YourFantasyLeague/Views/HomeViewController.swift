@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  CustomSideMenuiOSExample
-//
-//  Created by John Codeos on 2/§/21.
-//
-
 import UIKit
 
 class HomeViewController: UIViewController {

@@ -11,7 +11,6 @@
 		D8861A5726F7F27100B14A7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8861A5626F7F27100B14A7E /* AppDelegate.swift */; };
 		D8861A5926F7F28C00B14A7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8861A5826F7F28C00B14A7E /* Assets.xcassets */; };
 		D8C9908C26F93EB500A41B70 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C9908B26F93EB500A41B70 /* MainViewController.swift */; };
-		D8C9908F26F93F7300A41B70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8C9908D26F93F7300A41B70 /* Main.storyboard */; };
 		D8C9909026F93F7300A41B70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8C9908E26F93F7300A41B70 /* LaunchScreen.storyboard */; };
 		D8C9909926F93FE800A41B70 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C9909326F93FE800A41B70 /* SettingsViewController.swift */; };
 		D8C9909A26F93FE800A41B70 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C9909426F93FE800A41B70 /* StatisticsViewController.swift */; };
@@ -23,6 +22,7 @@
 		D8C990A226F9407A00A41B70 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C990A026F9407A00A41B70 /* SideMenuViewController.swift */; };
 		D8C990A626F9409700A41B70 /* SideMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C990A426F9409700A41B70 /* SideMenuCell.swift */; };
 		D8C990A726F9409700A41B70 /* SideMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8C990A526F9409700A41B70 /* SideMenuCell.xib */; };
+		D8C990AB26F943B000A41B70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8C990AA26F943B000A41B70 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,6 @@
 		D8861A5C26F7F2D500B14A7E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8861A6926F7F41F00B14A7E /* project.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; name = project.xcworkspace; path = YourFantasyLeague.xcodeproj/project.xcworkspace; sourceTree = "<group>"; };
 		D8C9908B26F93EB500A41B70 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		D8C9908D26F93F7300A41B70 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D8C9908E26F93F7300A41B70 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8C9909326F93FE800A41B70 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D8C9909426F93FE800A41B70 /* StatisticsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +44,7 @@
 		D8C990A026F9407A00A41B70 /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
 		D8C990A426F9409700A41B70 /* SideMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuCell.swift; sourceTree = "<group>"; };
 		D8C990A526F9409700A41B70 /* SideMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuCell.xib; sourceTree = "<group>"; };
+		D8C990AA26F943B000A41B70 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +78,10 @@
 		D8861A3F26F7F16300B14A7E /* YourFantasyLeague */ = {
 			isa = PBXGroup;
 			children = (
+				D8C990AA26F943B000A41B70 /* Main.storyboard */,
 				D8C9909226F93FD300A41B70 /* Views */,
 				D8C9909126F93FC400A41B70 /* SideMenu */,
 				D8C9908E26F93F7300A41B70 /* LaunchScreen.storyboard */,
-				D8C9908D26F93F7300A41B70 /* Main.storyboard */,
 				D8C9908B26F93EB500A41B70 /* MainViewController.swift */,
 				D8861A5C26F7F2D500B14A7E /* Info.plist */,
 				D8861A5826F7F28C00B14A7E /* Assets.xcassets */,
@@ -182,8 +182,8 @@
 			files = (
 				D8C9909026F93F7300A41B70 /* LaunchScreen.storyboard in Resources */,
 				D8861A5926F7F28C00B14A7E /* Assets.xcassets in Resources */,
-				D8C9908F26F93F7300A41B70 /* Main.storyboard in Resources */,
 				D8C990A726F9409700A41B70 /* SideMenuCell.xib in Resources */,
+				D8C990AB26F943B000A41B70 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

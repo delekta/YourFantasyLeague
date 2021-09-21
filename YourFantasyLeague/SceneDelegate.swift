@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  YourFantasyLeague
-//
-//  Created by Kamil Delekta on 20/09/2021.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {

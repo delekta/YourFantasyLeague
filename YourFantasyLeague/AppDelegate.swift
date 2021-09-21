@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  YourFantasyLeague
-//
-//  Created by Kamil Delekta on 21/07/2021.
-//
-
 import UIKit
 
 @main

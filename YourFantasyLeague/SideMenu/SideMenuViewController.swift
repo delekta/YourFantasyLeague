@@ -1,10 +1,3 @@
-//
-//  SideMenuViewController.swift
-//  CustomSideMenuiOSExample
-//
-//  Created by John Codeos on 2/7/21.
-//
-
 import UIKit
 
 protocol SideMenuViewControllerDelegate {

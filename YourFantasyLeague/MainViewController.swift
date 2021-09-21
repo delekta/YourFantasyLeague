@@ -1,10 +1,3 @@
-//
-//  ContainerViewController.swift
-//  CustomSideMenuiOSExample
-//
-//  Created by John Codeos on 2/8/21.
-//
-
 import SafariServices
 import UIKit
 
@@ -26,7 +19,7 @@ class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = #colorLiteral(red: 0.2974807322, green: 0.7796016335, blue: 0, alpha: 1)
+        self.view.backgroundColor = #colorLiteral(red: 0, green: 0.9768045545, blue: 0, alpha: 1)
 
         createShadowBackgroundView()
         createSideMenu()

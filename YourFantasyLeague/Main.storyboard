@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WEK-hQ-hlc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WEK-hQ-hlc">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -11,7 +11,7 @@
         <!--Main View Controller-->
         <scene sceneID="6PQ-3D-7J9">
             <objects>
-                <viewController id="WEK-hQ-hlc" customClass="MainViewController" customModule="CustomSideMenuiOSExample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="WEK-hQ-hlc" customClass="MainViewController" customModule="YourFantasyLeague" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="swW-D0-nkE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -26,7 +26,7 @@
         <!--Side Menu View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="SideMenuID" id="BYZ-38-t0r" customClass="SideMenuViewController" customModule="CustomSideMenuiOSExample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SideMenuID" id="BYZ-38-t0r" customClass="SideMenuViewController" customModule="YourFantasyLeague" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="260" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -49,7 +49,7 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.73725490199999999" green="0.12941176469999999" blue="0.29411764709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="Cxm-bw-Wl1" secondAttribute="trailing" constant="10" id="0sK-aE-mI0"/>
                             <constraint firstAttribute="trailing" secondItem="FBO-LP-H5O" secondAttribute="trailing" constant="17" id="4LE-VJ-TtQ"/>
@@ -77,7 +77,7 @@
         <!--Home-->
         <scene sceneID="1eo-C8-PAQ">
             <objects>
-                <viewController id="O64-xQ-gco" customClass="HomeViewController" customModule="CustomSideMenuiOSExample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="O64-xQ-gco" customClass="HomeViewController" customModule="YourFantasyLeague" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OYx-GC-B5w">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -90,7 +90,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mmY-7H-6EV"/>
-                        <color key="backgroundColor" red="0.61960784310000006" green="0.10980392160000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
                         <constraints>
                             <constraint firstItem="rz6-H2-Qcz" firstAttribute="centerX" secondItem="mmY-7H-6EV" secondAttribute="centerX" id="XRF-mh-hgb"/>
                             <constraint firstItem="rz6-H2-Qcz" firstAttribute="centerY" secondItem="mmY-7H-6EV" secondAttribute="centerY" id="m4x-lU-jI9"/>
@@ -116,7 +116,7 @@
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="barTintColor" red="0.73725490199999999" green="0.1333333333" blue="0.29411764709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" systemColor="systemGreenColor"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
@@ -130,43 +130,49 @@
             </objects>
             <point key="canvasLocation" x="-2043" y="929"/>
         </scene>
-        <!--Profile View Controller-->
+        <!--Fixture-->
         <scene sceneID="63g-R9-Fpi">
             <objects>
-                <viewController storyboardIdentifier="ProfileModalID" id="hxo-eQ-hTR" customClass="ProfileViewController" customModule="CustomSideMenuiOSExample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ProfileModalID" id="hxo-eQ-hTR" customClass="FixtureViewController" customModule="YourFantasyLeague" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FqD-HT-ul0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profile Modal View Controller" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cp5-3x-ZcK">
-                                <rect key="frame" x="70.5" y="441" width="273" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fixture Modal View Controller" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cp5-3x-ZcK">
+                                <rect key="frame" x="68" y="463" width="278" height="24"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="r0l-4i-QbP"/>
-                        <color key="backgroundColor" red="0.61960784310000006" green="0.10980392160000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
                         <constraints>
                             <constraint firstItem="Cp5-3x-ZcK" firstAttribute="centerY" secondItem="r0l-4i-QbP" secondAttribute="centerY" id="E4n-rn-WwD"/>
                             <constraint firstItem="Cp5-3x-ZcK" firstAttribute="centerX" secondItem="r0l-4i-QbP" secondAttribute="centerX" id="ggq-cA-r89"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Fixture" id="TWi-lH-bKw">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="menu" id="QMV-uk-pVB"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="sideMenuBtn" destination="QMV-uk-pVB" id="yqb-1K-t04"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="skO-Tg-tDL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1170" y="929"/>
+            <point key="canvasLocation" x="1162" y="1675"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="tml-8w-Htr">
             <objects>
-                <navigationController storyboardIdentifier="MusicNavID" automaticallyAdjustsScrollViewInsets="NO" id="1Qz-93-oW6" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="PointsNavID" automaticallyAdjustsScrollViewInsets="NO" id="1Qz-93-oW6" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="1Ww-ae-p4l">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="barTintColor" red="0.73725490199999999" green="0.1333333333" blue="0.29411764709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" systemColor="systemGreenColor"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
@@ -180,25 +186,25 @@
             </objects>
             <point key="canvasLocation" x="-1280" y="929"/>
         </scene>
-        <!--Music-->
+        <!--Points-->
         <scene sceneID="elx-OU-sV1">
             <objects>
-                <viewController id="fQx-6a-sFe" customClass="MusicViewController" customModule="CustomSideMenuiOSExample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fQx-6a-sFe" customClass="PointsViewController" customModule="YourFantasyLeague" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Uk8-uy-xcB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="uI3-UE-3xb">
-                                <rect key="frame" x="51.5" y="364" width="311.5" height="46.5"/>
+                                <rect key="frame" x="50" y="364" width="314.5" height="46.5"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Music Navigation View Controller" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LU3-QF-dJP">
-                                        <rect key="frame" x="0.0" y="0.0" width="311.5" height="24"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Points Navigation View Controller" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LU3-QF-dJP">
+                                        <rect key="frame" x="0.0" y="0.0" width="314.5" height="24"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(drag gesture is disabled)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JRl-xh-m6r">
-                                        <rect key="frame" x="77.5" y="32" width="156" height="14.5"/>
+                                        <rect key="frame" x="79" y="32" width="156" height="14.5"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -207,13 +213,13 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="IhQ-0e-hrk"/>
-                        <color key="backgroundColor" red="0.61960784310000006" green="0.10980392160000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
                         <constraints>
                             <constraint firstItem="uI3-UE-3xb" firstAttribute="centerY" secondItem="IhQ-0e-hrk" secondAttribute="centerY" id="TsB-Bx-0cP"/>
                             <constraint firstItem="uI3-UE-3xb" firstAttribute="centerX" secondItem="IhQ-0e-hrk" secondAttribute="centerX" id="cXZ-7Y-7MR"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Music" id="0Kl-0n-vLK">
+                    <navigationItem key="navigationItem" title="Points" id="0Kl-0n-vLK">
                         <barButtonItem key="leftBarButtonItem" title="Menu" image="menu" id="wtm-Sr-lPO"/>
                     </navigationItem>
                     <connections>
@@ -227,13 +233,13 @@
         <!--Navigation Controller-->
         <scene sceneID="gdO-mh-siy">
             <objects>
-                <navigationController storyboardIdentifier="MoviesNavID" automaticallyAdjustsScrollViewInsets="NO" id="rqG-xL-ngM" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="RankingNavID" automaticallyAdjustsScrollViewInsets="NO" id="rqG-xL-ngM" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="hQw-6Z-qSR">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="barTintColor" red="0.73725490199999999" green="0.1333333333" blue="0.29411764709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" systemColor="systemGreenColor"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
@@ -247,29 +253,29 @@
             </objects>
             <point key="canvasLocation" x="-481" y="929"/>
         </scene>
-        <!--Movies-->
+        <!--Ranking-->
         <scene sceneID="mxu-ze-RAi">
             <objects>
-                <viewController id="NXD-Ae-5wW" customClass="MoviesViewController" customModule="CustomSideMenuiOSExample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="NXD-Ae-5wW" customClass="RankingViewController" customModule="YourFantasyLeague" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DRL-5d-URr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Movies Navigation View Controller" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KIB-Fw-WKM">
-                                <rect key="frame" x="46" y="375" width="322" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ranking Navigation View Controller" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KIB-Fw-WKM">
+                                <rect key="frame" x="41" y="375" width="332" height="24"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="FYH-ac-Zpr"/>
-                        <color key="backgroundColor" red="0.61960784310000006" green="0.10980392160000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
                         <constraints>
                             <constraint firstItem="KIB-Fw-WKM" firstAttribute="centerY" secondItem="FYH-ac-Zpr" secondAttribute="centerY" id="hrq-1U-VUg"/>
                             <constraint firstItem="KIB-Fw-WKM" firstAttribute="centerX" secondItem="FYH-ac-Zpr" secondAttribute="centerX" id="zUY-S4-UHh"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Movies" id="4V4-rh-vlm">
+                    <navigationItem key="navigationItem" title="Ranking" id="4V4-rh-vlm">
                         <barButtonItem key="leftBarButtonItem" title="Menu" image="menu" id="7vI-6u-C9q"/>
                     </navigationItem>
                     <connections>
@@ -280,25 +286,25 @@
             </objects>
             <point key="canvasLocation" x="-481" y="1675"/>
         </scene>
-        <!--Books View Controller-->
+        <!--Statistics-->
         <scene sceneID="1v4-u2-Q7b">
             <objects>
-                <viewController storyboardIdentifier="BooksVCID" id="U2T-fV-QiH" customClass="BooksViewController" customModule="CustomSideMenuiOSExample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BooksVCID" id="U2T-fV-QiH" customClass="StatisticsViewController" customModule="YourFantasyLeague" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hGX-0d-UAK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Amg-mh-VQv">
-                                <rect key="frame" x="103" y="430" width="208" height="46.5"/>
+                                <rect key="frame" x="88" y="452" width="238.5" height="46.5"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Books View Controller" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ALG-lU-jAk">
-                                        <rect key="frame" x="0.0" y="0.0" width="208" height="24"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Statistics View Controller" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ALG-lU-jAk">
+                                        <rect key="frame" x="0.0" y="0.0" width="238.5" height="24"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(swipe to reveal side menu)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H6q-7t-20T">
-                                        <rect key="frame" x="21" y="32" width="166" height="14.5"/>
+                                        <rect key="frame" x="36" y="32" width="166" height="14.5"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -307,17 +313,62 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ZWT-z5-V0t"/>
-                        <color key="backgroundColor" red="0.61960784310000006" green="0.10980392160000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
                         <constraints>
                             <constraint firstItem="Amg-mh-VQv" firstAttribute="centerY" secondItem="ZWT-z5-V0t" secondAttribute="centerY" id="7IQ-ba-1SW"/>
                             <constraint firstItem="Amg-mh-VQv" firstAttribute="centerX" secondItem="ZWT-z5-V0t" secondAttribute="centerX" id="DYk-eW-6dE"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="0hP-aa-O9w"/>
+                    <navigationItem key="navigationItem" title="Statistics" id="0hP-aa-O9w">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="menu" id="4qV-iQ-4we"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="sideMenuBtn" destination="4qV-iQ-4we" id="qSP-w3-XxW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="men-bf-hNd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="286" y="1675"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="qPZ-BH-9Xt">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GMm-p5-aN4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <navigationController storyboardIdentifier="StatisticsNavID" id="PQi-ki-ogc" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dQt-B1-w4x">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" systemColor="systemGreenColor"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="U2T-fV-QiH" kind="relationship" relationship="rootViewController" id="UGB-hN-6hC"/>
+                    </connections>
+                </navigationController>
+            </objects>
             <point key="canvasLocation" x="286" y="929"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="beP-OC-fSU">
+            <objects>
+                <navigationController storyboardIdentifier="FixtureNavID" id="uvK-VP-EVa" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="7rF-bD-Brd">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" systemColor="systemGreenColor"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="hxo-eQ-hTR" kind="relationship" relationship="rootViewController" id="WRh-nB-Kxm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xx7-W1-DfR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1161" y="929"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="84q-V6-o59">
@@ -328,7 +379,7 @@
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="barTintColor" red="0.73725490199999999" green="0.1333333333" blue="0.29411764709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" systemColor="systemGreenColor"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
@@ -345,7 +396,7 @@
         <!--Settings-->
         <scene sceneID="3Hq-QT-0bI">
             <objects>
-                <viewController id="ofZ-y6-c5s" customClass="SettingsViewController" customModule="CustomSideMenuiOSExample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ofZ-y6-c5s" customClass="SettingsViewController" customModule="YourFantasyLeague" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rXv-EG-cfw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -358,7 +409,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="t6M-Bl-YC7"/>
-                        <color key="backgroundColor" red="0.61960784310000006" green="0.10980392160000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
                         <constraints>
                             <constraint firstItem="3wV-e9-mVf" firstAttribute="centerX" secondItem="t6M-Bl-YC7" secondAttribute="centerX" id="PgB-an-rcL"/>
                             <constraint firstItem="3wV-e9-mVf" firstAttribute="centerY" secondItem="t6M-Bl-YC7" secondAttribute="centerY" id="rOh-4A-1xl"/>
@@ -377,10 +428,13 @@
         </scene>
     </scenes>
     <resources>
-        <image name="logo" width="500" height="100"/>
+        <image name="logo" width="269" height="50"/>
         <image name="menu" width="25" height="25"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
