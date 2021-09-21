@@ -1,6 +1,6 @@
 # YourFantasyLeague
 [In progress]
 
-![Home]()
+![Home](./resources/homeView.png)
 
-![Sidemenu]()
+![Sidemenu](./resources/sideMenu.png)
